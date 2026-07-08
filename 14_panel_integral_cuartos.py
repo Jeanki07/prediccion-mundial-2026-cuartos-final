@@ -62,6 +62,44 @@ def crear_contexto():
         how="left"
     )
 
+    # Normalizar columnas de contexto después de merges.
+    # Algunas columnas pueden venir como _ctx, _x o _y después de la ponderación balanceada.
+    columnas_necesarias = [
+        "home_gf12",
+        "home_ga12",
+        "home_pts12",
+        "home_prev_matches",
+        "away_gf12",
+        "away_ga12",
+        "away_pts12",
+        "away_prev_matches",
+        "diff_fifa",
+        "diff_elo",
+        "h2h",
+        "neutral",
+        "home_advantage",
+        "fifa_home",
+        "fifa_away",
+        "elo_home",
+        "elo_away",
+    ]
+
+    for col in columnas_necesarias:
+        if col not in contexto.columns:
+            for alt in [f"{col}_ctx", f"{col}_x", f"{col}_y"]:
+                if alt in contexto.columns:
+                    contexto[col] = contexto[alt]
+                    break
+
+        if col not in contexto.columns:
+            contexto[col] = 0
+
+        contexto[col] = pd.to_numeric(contexto[col], errors="coerce").fillna(0)
+
+    # Evitar división entre cero.
+    contexto["home_prev_matches"] = contexto["home_prev_matches"].replace(0, 1)
+    contexto["away_prev_matches"] = contexto["away_prev_matches"].replace(0, 1)
+
     contexto["forma_home_goles_pp"] = (contexto["home_gf12"] / contexto["home_prev_matches"]).round(2)
     contexto["forma_away_goles_pp"] = (contexto["away_gf12"] / contexto["away_prev_matches"]).round(2)
     contexto["forma_home_pts_pp"] = (contexto["home_pts12"] / contexto["home_prev_matches"]).round(2)

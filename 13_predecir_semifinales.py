@@ -287,7 +287,36 @@ def calibrar_lambda_modelo(lambda_raw, lambda_base):
 
 
 def obtener_lambdas_partido(fila, modelo_home, modelo_away):
-    X = pd.DataFrame([fila[VARIABLES].to_dict()], columns=VARIABLES)
+    # Usar exactamente las columnas con las que fue entrenado el modelo.
+    columnas_modelo = list(getattr(modelo_home, "feature_names_in_", VARIABLES))
+
+    equivalencias = {
+        "elo_home": ["elo_home", "home_elo", "elo_local"],
+        "elo_away": ["elo_away", "away_elo", "elo_visitante"],
+        "fifa_home": ["fifa_home", "home_fifa_rank", "fifa_local"],
+        "fifa_away": ["fifa_away", "away_fifa_rank", "fifa_visitante"],
+        "home_elo": ["home_elo", "elo_home", "elo_local"],
+        "away_elo": ["away_elo", "elo_away", "elo_visitante"],
+        "home_fifa_rank": ["home_fifa_rank", "fifa_home", "fifa_local"],
+        "away_fifa_rank": ["away_fifa_rank", "fifa_away", "fifa_visitante"],
+    }
+
+    datos = {}
+
+    for col in columnas_modelo:
+        valor = None
+
+        if col in fila.index:
+            valor = fila.get(col)
+        elif col in equivalencias:
+            for alt in equivalencias[col]:
+                if alt in fila.index:
+                    valor = fila.get(alt)
+                    break
+
+        datos[col] = safe_float(valor, 0)
+
+    X = pd.DataFrame([datos], columns=columnas_modelo)
 
     raw_home = safe_float(modelo_home.predict(X)[0], MEDIA_GOLES_EQUIPO)
     raw_away = safe_float(modelo_away.predict(X)[0], MEDIA_GOLES_EQUIPO)
