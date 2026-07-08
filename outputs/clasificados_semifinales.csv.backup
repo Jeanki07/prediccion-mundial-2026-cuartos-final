@@ -1,5 +1,0 @@
-match_id_cuartos,date,home_team,away_team,team,source,classification_type
-97,2026-07-09,France,Morocco,France,PREDICHO_MODELO,CLASIFICADO_A_SEMIFINALES
-98,2026-07-10,Spain,Belgium,Spain,PREDICHO_MODELO,CLASIFICADO_A_SEMIFINALES
-99,2026-07-11,Norway,England,England,PREDICHO_MODELO,CLASIFICADO_A_SEMIFINALES
-100,2026-07-11,Argentina,Switzerland,Argentina,PREDICHO_MODELO,CLASIFICADO_A_SEMIFINALES
