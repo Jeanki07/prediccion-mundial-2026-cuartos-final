@@ -1,21 +1,25 @@
-INSTRUCCIONES DE EJECUCION - CUARTOS DE FINAL
+ORDEN RECOMENDADO DE EJECUCIÓN
+===============================
 
-1. Crear entorno virtual:
-python -m venv venv
+cd ~/Descargas/prediccion-mundial-2026-cuartos-final
 source venv/bin/activate
 
-2. Instalar dependencias:
-pip install -r requirements.txt
-
-3. Ejecutar:
-python 11_crear_fixtures_cuartos.py
+python 00_actualizar_datos_oficiales.py
 python 12_actualizar_fixtures_modelo_cuartos.py
 python 13_predecir_semifinales.py
 python 10_ver_metricas_modelos.py
+python 14_panel_integral_cuartos.py
 
-4. Revisar outputs:
+ARCHIVOS IMPORTANTES
+====================
+
+data/fixtures_octavos.csv
+data/fixtures_cuartos.csv
+data/tarjetas_octavos_reales.csv
+data/fixtures_cuartos_modelo.csv
 outputs/prediccion_cuartos_a_semifinales.csv
-outputs/top10_marcadores_cuartos.csv
 outputs/prediccion_tarjetas_cuartos.csv
 outputs/clasificados_semifinales.csv
-outputs/panel_cuartos_marcadores_tarjetas.png
+outputs/analisis_contexto_cuartos.csv
+outputs/panel_integral_cuartos.png
+outputs/panel_competencia_modelos.png
