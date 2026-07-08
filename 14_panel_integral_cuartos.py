@@ -1,7 +1,5 @@
 # ============================================================
 # 14_panel_integral_cuartos.py
-# Panel visual completo para la entrega de cuartos.
-# Recupera la esencia del proyecto:
 # - ranking FIFA
 # - ranking Elo
 # - forma reciente

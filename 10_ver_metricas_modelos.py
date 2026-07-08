@@ -1,8 +1,6 @@
 # ============================================================
 # 10_ver_metricas_modelos.py
 # Muestra SOLO las metricas de los modelos ya entrenados.
-# No entrena nada.
-# No vuelve a correr el 02.
 # ============================================================
 
 from pathlib import Path

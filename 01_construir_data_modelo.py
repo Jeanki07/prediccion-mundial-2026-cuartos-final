@@ -19,7 +19,6 @@ SALIDA_FIXTURES_MODELO = DATA_DIR / "fixtures_modelo.csv"
 
 FECHA_INICIO_ENTRENAMIENTO = "2018-01-01"
 
-# Si quieres fecha manual, coloca por ejemplo: "2026-06-28"
 # Si lo dejas en None, el script toma automáticamente la última fecha con marcador + 1 día.
 #FECHA_CORTE_ENTRENAMIENTO = "2026-06-22"
 FECHA_CORTE_ENTRENAMIENTO = None
