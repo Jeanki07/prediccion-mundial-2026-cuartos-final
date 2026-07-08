@@ -1,14 +1,6 @@
 # ============================================================
 # 13_predecir_semifinales.py
 # Cuartos -> Semifinales
-#
-# Version corregida:
-# - No fuerza todas las lambdas al mismo maximo.
-# - Evita marcadores absurdos como 8-8.
-# - Evita que todo salga 3-3 o 0-0.
-# - Usa Poisson + Dixon-Coles.
-# - Combina modelo entrenado + forma reciente + defensa rival + contexto.
-# - Incluye prediccion de tarjetas.
 # ============================================================
 
 import math

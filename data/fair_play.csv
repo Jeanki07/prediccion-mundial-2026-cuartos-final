@@ -1,16 +1,16 @@
 team,yellow_cards,indirect_red_cards,direct_red_cards,team_conduct_score,matches_count,fair_play_points,cards_per_match,source_note
-France,7,0,0,-7,6,7,1.1667,Actualizado con tarjetas oficiales de octavos
+France,10,0,0,-10,7,10,1.4286,Actualizado con tarjetas oficiales de octavos
 Czech Republic,1,0,0,-1,3,1,0.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Tunisia,1,0,0,-1,3,1,0.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Spain,4,0,0,-4,6,4,0.6667,Actualizado con tarjetas oficiales de octavos
+Spain,5,0,0,-5,7,5,0.7143,Actualizado con tarjetas oficiales de octavos
 Turkey,2,0,0,-2,3,2,0.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Norway,2,0,0,-2,6,2,0.3333,Actualizado con tarjetas oficiales de octavos
-Morocco,10,0,0,-10,6,10,1.6667,Actualizado con tarjetas oficiales de octavos
+Norway,2,0,0,-2,7,2,0.2857,Actualizado con tarjetas oficiales de octavos
+Morocco,14,0,0,-14,7,14,2.0,Actualizado con tarjetas oficiales de octavos
 Germany,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-England,11,0,2,-19,6,19,3.1667,Actualizado con tarjetas oficiales de octavos
+England,15,0,3,-27,7,27,3.8571,Actualizado con tarjetas oficiales de octavos
 Netherlands,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Switzerland,9,0,0,-9,6,9,1.5,Actualizado con tarjetas oficiales de octavos
-Argentina,3,0,0,-3,6,3,0.5,Actualizado con tarjetas oficiales de octavos
+Switzerland,12,0,0,-12,7,12,1.7143,Actualizado con tarjetas oficiales de octavos
+Argentina,3,0,0,-3,7,3,0.4286,Actualizado con tarjetas oficiales de octavos
 Senegal,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Algeria,3,0,0,-3,4,3,0.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Japan,4,0,0,-4,4,4,1.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
@@ -20,7 +20,7 @@ South Korea,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fai
 Ivory Coast,4,0,0,-4,4,4,1.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 New Zealand,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Jordan,4,0,0,-4,3,4,1.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Portugal,9,0,0,-9,6,9,1.5,Actualizado con tarjetas oficiales de octavos
+Portugal,11,0,0,-11,7,11,1.5714,Actualizado con tarjetas oficiales de octavos
 Scotland,5,0,0,-5,3,5,1.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Austria,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Australia,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
@@ -30,20 +30,20 @@ Cape Verde,5,0,0,-5,4,5,1.25,Actualizado hasta 16avos; base Transfermarkt Fair P
 Ghana,6,0,0,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Iran,6,0,0,-6,3,6,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Saudi Arabia,6,0,0,-6,3,6,2.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Colombia,10,0,0,-10,6,10,1.6667,Actualizado con tarjetas oficiales de octavos
+Colombia,12,0,0,-12,7,12,1.7143,Actualizado con tarjetas oficiales de octavos
 DR Congo,6,0,0,-6,4,6,1.5,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Mexico,6,0,1,-10,6,10,1.6667,Actualizado con tarjetas oficiales de octavos
-Brazil,9,0,0,-9,6,9,1.5,Actualizado con tarjetas oficiales de octavos
-Canada,15,0,0,-15,6,15,2.5,Actualizado con tarjetas oficiales de octavos
+Mexico,8,0,1,-12,7,12,1.7143,Actualizado con tarjetas oficiales de octavos
+Brazil,10,0,0,-10,7,10,1.4286,Actualizado con tarjetas oficiales de octavos
+Canada,19,0,0,-19,7,19,2.7143,Actualizado con tarjetas oficiales de octavos
 Haiti,7,0,0,-7,3,7,2.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Curacao,7,0,0,-7,3,7,2.3333,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Belgium,4,0,1,-8,6,8,1.3333,Actualizado con tarjetas oficiales de octavos
+Belgium,4,0,1,-8,7,8,1.1429,Actualizado con tarjetas oficiales de octavos
 Iraq,4,0,1,-8,3,8,2.6667,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Egypt,12,0,0,-12,6,12,2.0,Actualizado con tarjetas oficiales de octavos
+Egypt,14,0,0,-14,7,14,2.0,Actualizado con tarjetas oficiales de octavos
 Uruguay,5,0,1,-9,3,9,3.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-United States,9,0,1,-13,6,13,2.1667,Actualizado con tarjetas oficiales de octavos
+United States,11,0,1,-15,7,15,2.1429,Actualizado con tarjetas oficiales de octavos
 Bosnia and Herzegovina,7,0,1,-11,4,11,2.75,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Ecuador,8,0,1,-12,4,12,3.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
 Qatar,4,0,2,-12,3,12,4.0,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
-Paraguay,9,0,1,-13,6,13,2.1667,Actualizado con tarjetas oficiales de octavos
+Paraguay,9,0,1,-13,7,13,1.8571,Actualizado con tarjetas oficiales de octavos
 South Africa,5,0,2,-13,4,13,3.25,Actualizado hasta 16avos; base Transfermarkt Fair Play Table 2026
